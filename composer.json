@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "machour/yii2-swagger-ui": "*"
+        "machour/yii2-swagger-ui": "dev-master"
     },
     "autoload": {
         "psr-4": {
