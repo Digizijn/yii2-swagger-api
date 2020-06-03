@@ -1,23 +1,33 @@
 {
-    "name": "machour/yii2-swagger-api",
-    "description": "Yii 2 Swagger API",
-    "keywords": ["yii2", "swagger", "api"],
-    "type": "yii2-extension",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "Mehdi Achour",
-            "email": "machour@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*",
-        "machour/yii2-swagger-ui": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-             "machour\\yii2\\swagger\\api\\": ""
-        }
-    }
+  "name": "machour/yii2-swagger-api",
+  "description": "Yii 2 Swagger API",
+  "keywords": [
+	"yii2",
+	"swagger",
+	"api"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+	{
+	  "name": "Mehdi Achour",
+	  "email": "machour@gmail.com"
+	}
+  ],
+  "repositories": [
+	{
+	  "type": "git",
+	  "url": "git@github.com:digizijn/yii2-swagger-ui.git"
+	}
+  ],
+  "require": {
+	"yiisoft/yii2": "*",
+	"machour/yii2-swagger-ui": "dev-master"
+  },
+  "autoload": {
+	"psr-4": {
+	  "machour\\yii2\\swagger\\api\\": ""
+	}
+  }
 }
